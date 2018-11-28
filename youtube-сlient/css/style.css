@@ -1,0 +1,83 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #24292e;
+}
+div{
+	width: 100%;
+	height: 100px;
+}
+form{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button{
+	font-size: 26px;
+	background: transparent;
+	border: 0px;
+	outline: none;
+	position: relative;
+	left: 40px;
+}
+input{
+	font-size: 28px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding-left: 45px;
+}
+div{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	height: 70vh;
+	overflow: hidden;
+	background: #fff;
+	opacity: none;
+	border-radius: 7px;
+	text-overflow: ellipsis;
+}
+iframe{
+	margin-top: 10px;
+	width: 95%;
+	height: 30vh;
+}
+h2{
+	position: relative;
+	width: 100%;
+	background: green;
+	top: -100px;
+	text-align: center;
+	padding: 5px 0;
+	margin: 0;
+}
+a{color: #fff}
+table{
+	width: 80%;
+	text-align: center;
+}
+td:first-child{
+	width: 30%;
+}
+p{
+	text-align: justify;
+	width: 95%;
+	height: 100px;
+	text-overflow: clip;
+
+}
+table{
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	top: -10px;
+}
